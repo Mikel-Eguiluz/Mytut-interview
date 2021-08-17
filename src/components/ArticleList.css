@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px black solid;
+}
+
+.card > h1 {
+  border-bottom: 1px black solid;
+}
